@@ -1,5 +1,14 @@
 body{
      font-family: 'Cinzel', serif;
+     overflow-x: hidden;
+     overflow-y: scroll;
+    }
+
+
+    #ipmain{
+      outline: none;
+      -webkit-box-shadow: inset 0 0 0px 9999px white;
+      border: 1px solid #1a6095;
     }
 
 
@@ -190,3 +199,33 @@ td{
     justify-content: center;
     align-items: center;
   }
+
+
+/*scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white;
+    border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1a6095;
+    border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background :  white;
+}
+
+::-webkit-scrollbar:hover {
+    width: 10px;
+    background-color: #1a6095;
+}
